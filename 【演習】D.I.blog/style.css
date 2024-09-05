@@ -1,0 +1,127 @@
+.blog img {
+    width: 250px;
+    height: 80px;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.logo {
+    float: left;
+    padding-left: 50px;
+    padding-right: 60px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+header ul {
+    line-height: 40px;
+}
+
+header ul li {
+    float: left;
+    list-style: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.logo2 {
+    float: left;
+    padding-left: 80px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/*main*/
+
+main {
+    clear: both;
+}
+
+.main-container {
+    margin: 0 auto;
+}
+
+/*left side*/
+
+.left {
+    float: left;
+    width: 65%;
+    border: 5px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.book h1 {
+    width: 100%;
+    border-left: 5px solid black;
+    border-bottom: 3px solid gray;
+}
+
+.book img {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 180px;
+    margin: 20px 5px -20px 5px;
+}
+
+.box .up {
+    display: inline-block;
+}
+
+.box .down {
+    display: inline-block;
+}
+
+/*right side*/
+
+.right {
+    float: right;
+    width: 30%;
+    margin-top: 5px;
+    border: 5px solid red;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 585px;
+}
+
+.right h2 {
+    border-bottom: 3px solid lightgray;
+}
+
+.right p {
+    margin-left: 30px;
+}
+
+/*footer*/
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+}
